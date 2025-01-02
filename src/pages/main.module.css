@@ -1,0 +1,66 @@
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+ html {
+      --primary-shade-00: #000000;
+      --primary-shade-01: #041D37;
+      --primary-shade-02: #133253;
+      --primary-shade-03: #4A6B8A;
+      --primary-shade-04: #738CA6;
+      --primary-shade-05: #ffffff;
+   }
+   .container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 0 8rem;
+   
+   }
+.head{
+   display: flex;
+   justify-content: space-between;
+   height: 50px;
+   background-color: var(--primary-shade-03);
+   border-radius: 1rem;
+   padding-left: 1rem;
+}
+.navbtn{
+   background-color: var(--primary-shade-05);
+   border-radius: 1rem;
+   color: var(--primary-shade-00);
+   background-color: var(--primary-shade-04);
+}
+.content{
+   resize: none;
+   padding: 1rem;
+   border-radius: 1rem;
+   height: 40vh;
+   background-color: var(--primary-shade-00);
+   color: var(--primary-shade-04);
+}
+.btn{
+   padding: 1rem 0;
+   display: flex;
+   gap: 1rem;
+
+}
+.btnitem{
+   padding: 0.5rem 1rem;
+   border-radius: 0.4rem;
+   color: var(--primary-shade-00);
+   background-color: var(--primary-shade-04);
+}
+.summary{
+   display: flex;
+   flex-direction: column;
+   justify-content: left;
+   align-items: flex-start;
+   color: var(--primary-shade-05);
+}
+.para{
+   border: 1px solid var(--primary-shade-01);
+   height: 20vh;
+   width: 100%;
+}
